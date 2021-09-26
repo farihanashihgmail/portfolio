@@ -134,6 +134,7 @@ body{
 @media (max-width: 800px) {
     .pengalaman span{
         position: static;
+        margin-left: 0px;
     }
 }
 
