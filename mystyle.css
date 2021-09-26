@@ -418,11 +418,17 @@ body{
     }
 }
 
+@media (max-width:800px){
+    .kirimemail input, .kirimemail textarea{
+        width: 300px;
+    }
+}
+
 /*ada disetiap html*/
 #untukfooter{
     position: static;
     background-color: gray;
-    margin-top: 70px;
+    margin-top: 200px;
     margin-bottom: opx;
     width: 100%;
     height: 100%;
