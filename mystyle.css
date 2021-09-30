@@ -3,18 +3,6 @@
 }
 
 /*ada disetiap html*/
-body{
-    background-image: url("logoweb.jpg");
-}
-
-@media (max-width:800px) {
-    body background-image{
-        height: 30px;
-        width: 30px;
-    }
-}
-
-
 .menu h1{
     text-align: right;
     padding-right: 20;
