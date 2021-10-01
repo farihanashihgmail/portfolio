@@ -3,6 +3,10 @@
 }
 
 /*ada disetiap html*/
+#txt {
+    text-align: right;
+}
+
 .menu h1{
     text-align: right;
     padding-right: 20;
