@@ -6,7 +6,7 @@ function startTime(){
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
-    setTimeOut(StartTime, 1000);
+    setTimeout(StartTime, 1000);
 }
 
 function checkTime(i){
