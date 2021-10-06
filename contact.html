@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome</title>
         <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     </head>
     <body onload="startTime()">
         <div class="menu">
@@ -29,14 +30,15 @@
         <div id="containeremail">
             <h1 class="sentuh">Get In Touch</h1>
             <div class="kirimemail">
-                <form>
+                <form action="https://formspree.io/f/xwkazraq" method="post">
                     <label for="nama"></label>
-                    <input type="text" name="nama" placeholder="Nama Kamu"><br>
+                    <input type="text" name="nama" class="subject" placeholder="Nama Kamu"><br>
                     <label for="nama"></label>
-                    <input type="email" name="email" placeholder="email kamu"><br>
+                    <input type="email" name="email" class="email" placeholder="email kamu"><br>
                     <label for="pesan"></label>
-                    <textarea  name="pesan" placeholder="Pesan Kamu"></textarea><br>
-                    <input type="submit" name="submit" value="Kirimlah">
+                    <textarea  name="pesan" class="message" placeholder="Pesan Kamu"></textarea><br>
+                    <div class="status"></div>
+                    <input type="submit" name="submit" class="submit" value="Kirimlah">
                 </form>
             </div>
         </div>
@@ -50,5 +52,6 @@
         </div>
         <script src="javascript/color.js"></script>
         <script src="javascript/clock.js"></script>
+        <script src="javascript/kirim.js"></script>
     </body>
 </html>
