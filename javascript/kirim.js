@@ -13,21 +13,21 @@ $(document).ready(function () {
             statusElm.append('<div>Email is valid</div')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Email is not valid</div>')
+            statusElm.append('<div>Email must contain (more than 5 character), @, .</div>')
         }
 
         if(subject.length > 2) {
             statusElm.append('<div>Subject is valid</div>')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Subject is not valid</div>')
+            statusElm.append('<div>Subject must contain more than 2 characters</div>')
         }
 
         if(message.length > 10) {
             statusElm.append('<div>Messeage is valid</div')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Messeage is not valid</div>')
+            statusElm.append('<div>Messeage must contain more than 10 characters</div>')
         }
 
     })
