@@ -17,17 +17,17 @@ $(document).ready(function () {
         }
 
         if(subject.length > 2) {
-            statusElm.append('<div>Subject is valid</div>')
+            statusElm.append('<div>Nama is valid</div>')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Subject must contain more than 2 characters</div>')
+            statusElm.append('<div>Nama must contain more than 2 characters</div>')
         }
 
         if(message.length > 10) {
-            statusElm.append('<div>Messeage is valid</div')
+            statusElm.append('<div>Pesan is valid</div')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Messeage must contain more than 10 characters</div>')
+            statusElm.append('<div>Pesan must contain more than 10 characters</div>')
         }
 
     })
