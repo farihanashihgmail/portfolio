@@ -528,8 +528,8 @@ nav{
 }
 
 .sentuh{
-    position: absolute;
-    color: orange;
+    position: static;
+    color: black;
     margin-left: 300px;
 }
 
@@ -540,7 +540,7 @@ nav{
 }
 
 .kirimemail{
-    position: absolute;
+    position: static;
     margin-left: 600px;
 }
 
