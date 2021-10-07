@@ -516,6 +516,7 @@ nav{
 
 /*contact.html*/
 #containeremail{
+    background-color: grey;
     display: flex;
     justify-content: center
     margin-top: 150px;
