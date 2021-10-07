@@ -529,7 +529,6 @@ nav{
 }
 
 .sentuh{
-    font-size: 12pt;
     position: static;
     color: black;
     margin-left: 300px;
@@ -537,6 +536,7 @@ nav{
 
 @media (max-width:800px){
     .sentuh{
+        font-size: 12pt;
         margin-left: 10px;
     }
 }
