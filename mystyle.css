@@ -254,12 +254,6 @@ nav{
     user-select: none;
 }
 
-.prevnext{
-    background-color: red;
-    display: flex;
-    width: 200px;
-}
-
 #prev:hover, #next:hover{
     background-color: green;
 }
