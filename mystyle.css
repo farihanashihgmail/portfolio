@@ -229,7 +229,6 @@ nav{
 }
 
 #prev{
-    position: absolute;
     color: white;
     background-color: black;
     left: 0;
@@ -240,7 +239,6 @@ nav{
     transition: 0,7s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-
 }
 
 #next{
