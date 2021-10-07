@@ -524,12 +524,12 @@ nav{
 
 @media (max-width:800px){
     #containeremail{
-        font-size: 12pt;
         height: 275px;
     }
 }
 
 .sentuh{
+    font-size: 12pt;
     position: static;
     color: black;
     margin-left: 300px;
