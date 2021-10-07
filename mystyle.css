@@ -229,6 +229,7 @@ nav{
 }
 
 #prev{
+    position: relative;
     color: white;
     background-color: black;
     left: 0;
@@ -242,6 +243,7 @@ nav{
 }
 
 #next{
+    position: relative;
     color: white;
     background-color: black;
     right: 0;
