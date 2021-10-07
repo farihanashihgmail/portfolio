@@ -524,6 +524,7 @@ nav{
 
 @media (max-width:800px){
     #containeremail{
+        font-size: 12pt;
         height: 275px;
     }
 }
