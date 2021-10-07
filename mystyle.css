@@ -68,7 +68,7 @@ nav{
         overflow-x: hidden;
     }
     .nav-links{
-        position: fixed;
+        position: static;
         right: 0px;
         height: 92vh;
         top: 8vh;
