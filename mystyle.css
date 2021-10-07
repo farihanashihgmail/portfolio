@@ -255,6 +255,7 @@ nav{
 }
 
 .prevnext{
+    background-color: red;
     display: flex;
     width: 200px;
 }
