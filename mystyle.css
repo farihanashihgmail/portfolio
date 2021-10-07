@@ -255,7 +255,8 @@ nav{
 }
 
 .prevnext{
-    width: 100px;
+    display: flex;
+    width: 200px;
 }
 
 #prev:hover, #next:hover{
