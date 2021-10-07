@@ -517,6 +517,7 @@ nav{
 /*contact.html*/
 #containeremail{
     display: flex;
+    justify-content: center
     margin-top: 150px;
     width: 100%;
     height: 215px;
@@ -542,7 +543,7 @@ nav{
 
 .kirimemail{
     position: static;
-    margin-left: 600px;
+    margin-left: 100px;
 }
 
 .kirimemail input{
