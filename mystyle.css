@@ -559,7 +559,7 @@ nav{
 
 @media (max-width:800px){
     .kirimemail input, .kirimemail textarea{
-        width: 300px;
+        width: 200px;
     }
 }
 
