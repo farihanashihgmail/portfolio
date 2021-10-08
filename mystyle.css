@@ -62,8 +62,10 @@ nav{
 
 }
 
-
 @media(max-width:768px){
+    html{
+        overflow-x: hidden;
+    
     body{
         overflow-x: hidden;
     }
