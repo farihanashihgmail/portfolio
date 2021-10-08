@@ -63,8 +63,11 @@ nav{
 }
 
 @media (max-width:768px){        
-    .nav-links{
+    body{
         overflow: hidden;
+    }
+    
+    .nav-links{
         position: absolute;
         right: 0px;
         height: 92vh;
