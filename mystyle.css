@@ -65,7 +65,6 @@ nav{
 @media (max-width:768px){        
     body{
         overflow-x: hidden;
-        overflow-y: scroll !important;
     }
     
     .nav-links{
