@@ -63,9 +63,10 @@ nav{
 }
 
 @media (max-width:768px){    
-    body{
+    #wrapper{
         overflow-x: hidden;
     }
+    
     .nav-links{
         position: absolute;
         right: 0px;
