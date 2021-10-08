@@ -62,15 +62,12 @@ nav{
 
 }
 
-@media(max-width:768px){
-    html{
-        overflow-x: hidden;
-    
+@media(max-width:768px){    
     body{
         overflow-x: hidden;
     }
     .nav-links{
-        position: absolute;
+        position: relative;
         right: 0px;
         height: 92vh;
         top: 8vh;
