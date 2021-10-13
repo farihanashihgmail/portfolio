@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome</title>
         <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
     </head>
     <body onload="startTime()">
         <div id="wrapper">
@@ -47,18 +48,34 @@
         <button class="btn btn-hero" id="btn">Klik donk!</button>
         <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4&t=421s">Sumber Kode</a>
     </div>
-        <div id="containerteam">
-            <div class="team">
-                <img class="img1" src="team/foto.jpg" alt="yahhh.. gak ada" width="200" height="300" />
-                <text class="text1">Farih Anashih Kurniawan</text>
-                <img class="img2" src="team/foto.jpg" alt="yahhh..gak ada" width="200" height="300" />
-                <text class="text2">Tidak ada</text>
-                <img class="img3" src="team/foto.jpg" alt="yahhh..gak ada" width="200" height="300" />
-                <text class="text3">Tidak ada</text>
-                <img class="img4" src="team/foto.jpg" alt="yahhh..gak ada" width="200" height="300" />
-                <text class="text4">Tidak ada</text>
+    <main>
+        <section class="containerthanks">
+            <div class="title">
+                <h2>Thanks To:</h2>
+                <div class="underline"></div>
             </div>
-        </div>
+            <article class="review">
+                <div class="img-container">
+                    <img src="" id="person-img" alt="yahhh.. gak ada"/>
+                </div>
+                <h4 id="author">freeCodeCamp.org</h4>
+                <p id="job">Vanilla JavaScript Course</p>
+                <p id="info">
+                    Sharpen your JavaScript skills by building 15 projects using plain JavaScript without frameworks. 
+                    In this tutorial course, you will be taught step-by-step how to build JavaScript projects.
+                </p>
+                <div class="button-containerthanks">
+                    <button class="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <button class="random-btn">suprise me</button>
+            </article>
+        </section>
+    </main>
         <div id="untukfooter">
             <div class="footer">
                 <h4>Copyright by Farih Anashih Kurniawan</h4>
@@ -70,6 +87,7 @@
         <script src="javascript/color.js"></script>
         <script src="javascript/clock.js"></script>
         <script src="javascript/nav-bar.js"></script>
+        <script src="javascript/thanks.js"></script>
         </div>
     </body>
 </html>
