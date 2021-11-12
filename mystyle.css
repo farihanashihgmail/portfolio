@@ -55,6 +55,10 @@ nav{
     transition: all 0.3s ease;
 }
 
+a:hover {
+    background-color: green;
+}
+
 @media (max-width:1024px){
     .nav-links{
         width: 60%;
@@ -134,6 +138,28 @@ nav{
         margin-top: 200px;
         margin-left: 20px;
         font-size: 12pt; 
+    }
+}
+
+#project {
+    margin-top: 100px;
+    margin-left: 325px;
+    width: 50%;
+}
+
+table {
+    text-align: center;
+    border: 1px solid black;
+}
+
+@media (max-width: 800px) {
+    #project {
+        margin-left: 20px;
+    }
+
+    #project iframe {
+        width: 400px;
+        height: 250px;
     }
 }
 
