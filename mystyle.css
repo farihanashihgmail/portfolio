@@ -149,7 +149,7 @@ a:hover {
 
 table {
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 
 @media (max-width: 800px) {
@@ -236,6 +236,25 @@ table {
     .pengalaman span{
         position: static;
         margin-left: 0px;
+    }
+}
+
+#certificate {
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+@media (max-width: 800px) {
+    #certificate {
+        margin-left: 20px;
+    }
+
+    #certificate img {
+        width: 400px;
+    }
+
+    .hacktiv8 {
+        height:700px;
     }
 }
 
