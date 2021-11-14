@@ -154,7 +154,7 @@ table {
 
 @media (max-width: 800px) {
     #project {
-        margin-left: 10px;
+        margin-left: 25px;
     }
 
     #project iframe {
