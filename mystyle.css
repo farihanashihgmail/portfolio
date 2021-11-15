@@ -8,12 +8,15 @@
 }
 
 nav{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     background-color: orange;
     font-family: 'Poppins', sans-serif;
+    z-index: 10;
 }
 
 .logo{
@@ -55,7 +58,11 @@ nav{
     transition: all 0.3s ease;
 }
 
-a:hover {
+li a {
+    padding:17px;
+}
+
+li a:hover {
     background-color: green;
 }
 
@@ -679,6 +686,7 @@ main {
 /*ada disetiap html*/
 #untukfooter{
     position: static;
+    float: bottom;
     background-color: gray;
     margin-top: 200px;
     margin-bottom: opx;
