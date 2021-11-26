@@ -15,7 +15,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: orange;
+    background-color: black;
     font-family: 'Poppins', sans-serif;
     z-index: 10;
 }
@@ -64,7 +64,7 @@ li a {
 }
 
 li a:hover {
-    background-color: green;
+    background-color: red;
 }
 
 @media (max-width:1024px){
