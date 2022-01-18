@@ -178,7 +178,7 @@ table {
     margin-top: 50px;
 }
 
-.data_diri img{
+.data_diri figure{
     position: absolute;
     margin-top: 100px;
     margin-left: 400px;
@@ -635,7 +635,6 @@ main {
     display: flex;
     margin-top: 150px;
     width: 100%;
-    height: 215px;
 }
 
 @media (max-width:800px){
@@ -681,6 +680,18 @@ main {
 @media (max-width:800px){
     .kirimemail input, .kirimemail textarea{
         width: 200px;
+    }
+}
+
+.iframeContact {
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+@media (max-width: 800px) {
+    .iframeContact {
+        margin-left: 10px;
+        width: 400px;
     }
 }
 
